@@ -67,8 +67,6 @@ export const Register = () => {
     }
   }
 
-
-
   return (
     <form
       className='form'
@@ -114,7 +112,7 @@ export const Register = () => {
       />
       <SexSelect
         name='sex'
-        label='Select your sex:'
+        label='Choose a gender:'
         value={values.sex}
         onInputChange={handleInputChange}
         errorMessage={errorMessage?.sex}

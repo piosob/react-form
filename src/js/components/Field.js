@@ -2,9 +2,6 @@ import React from 'react';
 import '../../style/Field.scss'
 
 export const Field = ({ name, type, label, placeholder, value, errorMessage, onInputChange }) => {
-
-
-
   return (
     <label className='label'>
       {label}

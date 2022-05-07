@@ -34,6 +34,4 @@ export function validate(values) {
 
   if (Object.values(errorMessages).length > 0) return errorMessages;
   else return null
-
 }
-
