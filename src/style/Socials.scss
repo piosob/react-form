@@ -1,0 +1,36 @@
+.socials {
+  margin-top: 1em;
+  align-self: flex-end;
+  display: flex;
+  gap: 1em;
+
+
+  .fa {
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 1.5em;
+    padding: .5em;
+    cursor: pointer;
+    border: 1px solid #000;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+
+
+  }
+
+  .fa-github {
+    background: transparent;
+    color: #fff;
+    font-size: 3em;
+    padding: 0;
+
+  }
+
+}

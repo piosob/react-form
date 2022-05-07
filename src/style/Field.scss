@@ -1,0 +1,28 @@
+.label {
+  display: block;
+  margin-top: 1em;
+  font-size: 1.1em;
+
+
+  input,
+  select {
+    display: block;
+    width: 100%;
+    padding: .5em;
+    margin-top: .5em;
+    border-radius: 1em;
+    border: 3px solid #eee;
+    outline: none;
+
+    &:focus {
+      border: 3px solid red;
+    }
+  }
+
+
+}
+
+input,
+button {
+  font-family: 'Raleway', sans-serif;
+}
