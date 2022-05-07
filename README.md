@@ -1,5 +1,5 @@
 ## Form in React with some validation
-## Demo page: [demo](https://duckduckgo.com).
+## Demo page: [demo](https://piosob.github.io/react-form/)
 
 ![app view](./src/images/demo.JPG)
 ### Used technologies:
