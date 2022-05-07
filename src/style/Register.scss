@@ -2,11 +2,23 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  background-color: rgba(0, 0, 0, .6);
+  border-radius: 3em;
+  padding: 1em .5em;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+
+  @media (min-width: 600px) {
+    padding: 1em;
+  }
 
   @media (min-width: 800px) {
+
     max-width: 800px;
-    margin: 0 auto;
+    margin: 2em auto;
+    border-radius: 5em;
+    padding: 3em;
   }
+
 
   h2 {
     margin-top: 1em;
@@ -15,6 +27,7 @@
 
   input[type='submit'] {
     margin-top: 3em;
+    margin-right: 1em;
     align-self: flex-end;
     padding: .8em 1.5em;
     border-radius: 1em;
@@ -36,6 +49,7 @@
 
 .success {
   margin: 2em 0;
+  margin-right: 1em;
   color: lightgreen;
   align-self: flex-end;
   transition: .3s;
@@ -45,4 +59,5 @@
   color: red;
   font-weight: bold;
   display: block;
+  font-size: .8em;
 }

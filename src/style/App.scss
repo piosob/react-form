@@ -2,6 +2,12 @@
   background: rgb(2, 0, 41);
   background: linear-gradient(90deg, rgba(2, 0, 41, 0.9) 0%, rgba(17, 12, 111, 0.9) 100%);
   color: #ddd;
-  padding: 1.5em;
+  padding: 1em;
+  background-image: url(../images/1large.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 
 }
